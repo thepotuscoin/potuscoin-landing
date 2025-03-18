@@ -10,37 +10,50 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: #f4f4f4;
+            background: linear-gradient(to right, #1a1a1a, #333);
+            color: white;
         }
         header {
-            background-color: #1a1a1a;
-            color: white;
+            background-color: rgba(0, 0, 0, 0.8);
             padding: 20px 0;
-            font-size: 24px;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
         }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
         .hero-image {
-            width: 100%;
+            width: 80%;
             border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #f0c808;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
         }
         .social-links a {
             display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
+            margin: 15px;
+            padding: 12px 25px;
             text-decoration: none;
             color: white;
-            background: #007bff;
-            border-radius: 5px;
+            background: #f0c808;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: background 0.3s;
         }
         .social-links a:hover {
-            background: #0056b3;
+            background: #d9a106;
         }
     </style>
 </head>
@@ -56,9 +69,9 @@
         <p>The system uses two tokens: <strong>$YES</strong> (Approval) and <strong>$NO</strong> (Disapproval) to reflect the sentiment of the people.</p>
         <h2>Join the Movement</h2>
         <div class="social-links">
-            <a href="https://t.me/thepotuscoin">Join Telegram</a>
-            <a href="@ThePOTUScoin">Follow on X</a>
-            <a href="https://www.tiktok.com/@thepotuscoin?is_from_webapp=1&sender_device=pc">Follow on TikTok</a>
+            <a href="https://t.me/thepotuscoin" target="_blank">Join Telegram</a>
+            <a href="https://twitter.com/ThePOTUScoin" target="_blank">Follow on X</a>
+            <a href="https://www.tiktok.com/@thepotuscoin?is_from_webapp=1&sender_device=pc" target="_blank">Follow on TikTok</a>
         </div>
     </div>
 </body>
